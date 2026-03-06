@@ -11,7 +11,7 @@ app.use(express.json());
 app.use("/auth", authRoute);
 app.use("/", dataRoute);
 
-// app.use(errHandler);
+app.use(errHandler);
 
 app.listen(PORT, () => {
   console.log(`Server is running at ${PORT}`);

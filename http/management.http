@@ -6,8 +6,9 @@ Content-Type: application/json
 Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MiwidXNlcm5hbWUiOiJ1c2VyTWVycCIsImlhdCI6MTc3Mjc5Mjk2MCwiZXhwIjoxNzczMzk3NzYwfQ.NuQQjLRxUoM7ay-7EJhQnjOFC9Fw0GEhln381iuGAmI
 
 ### Put USER
-PUT /users/me
+PUT {{URL}}/users/me
 Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MiwidXNlcm5hbWUiOiJ1c2VyTWVycCIsImlhdCI6MTc3Mjc5Mjk2MCwiZXhwIjoxNzczMzk3NzYwfQ.NuQQjLRxUoM7ay-7EJhQnjOFC9Fw0GEhln381iuGAmI
 
 {
   "username": "userMerp",
@@ -18,18 +19,15 @@ Content-Type: application/json
 ### Get DOC
 GET {{URL}}/doctors/me
 Content-Type: application/json
-
-{
-  "username": "Docpim",
-  "password": "dm1234"
-}
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NSwidXNlcm5hbWUiOiJEb2NwaW1teSIsInNwZWNpYWxpemF0aW9uIjoiRE9DNCIsImlhdCI6MTc3Mjc5NzM1MSwiZXhwIjoxNzczNDAyMTUxfQ.hKZb3Xcy_-pWXDUiFRbmB6Rv31CMYjmpCfDgzsOLpQE
 
 
 ### Put DOC
 PUT {{URL}}/doctors/me
 Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NSwidXNlcm5hbWUiOiJEb2NwaW1teSIsInNwZWNpYWxpemF0aW9uIjoiRE9DNCIsImlhdCI6MTc3Mjc5NzM1MSwiZXhwIjoxNzczNDAyMTUxfQ.hKZb3Xcy_-pWXDUiFRbmB6Rv31CMYjmpCfDgzsOLpQE
 
 {
-  "username": "Docpim",
+  "username": "DocpimmyNew",
   "password": "dm1234"
 }

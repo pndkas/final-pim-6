@@ -5,9 +5,9 @@ POST {{URL}}/auth/register/doctor
 Content-Type: application/json
 
 {
-  "username": "Docpim",
+  "username": "Docpimmy",
   "password": "dm1234",
-  "specialization": "DOC3"
+  "specialization": "DOC4"
 }
 
 ### Login DOC
@@ -15,7 +15,7 @@ POST {{URL}}/auth/login/doctor
 Content-Type: application/json
 
 {
-  "username": "Docpim",
+  "username": "Docpimmy",
   "password": "dm1234"
 }
 

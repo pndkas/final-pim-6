@@ -29,14 +29,14 @@ export async function createUserToken(user) {
 // verify
 export function verifyDocToken(token) {
   const payload = jwt.verify(token, process.env.DOC_SECRET, {
-    algorithm: ["HS256"],
+    algorithms: ["HS256"],
   });
   return payload;
 }
 
 export function verifyUserToken(token) {
   const payload = jwt.verify(token, process.env.USER_SECRET, {
-    algorithm: ["HS256"],
+    algorithms: ["HS256"],
   });
   return payload;
 }
