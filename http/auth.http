@@ -1,0 +1,39 @@
+@URL = http://localhost:9000
+
+### Register DOC
+POST {{URL}}/auth/register/doctor
+Content-Type: application/json
+
+{
+  "username": "Docpim",
+  "password": "dm1234",
+  "specialization": "DOC3"
+}
+
+### Login DOC
+POST {{URL}}/auth/login/doctor
+Content-Type: application/json
+
+{
+  "username": "Docpim",
+  "password": "dm1234"
+}
+
+
+### Register USER
+POST {{URL}}/auth/register/user
+Content-Type: application/json
+
+{
+  "username": "userMave",
+  "password": "um1234"
+}
+
+### Login USER
+POST {{URL}}/auth/login/user
+Content-Type: application/json
+
+{
+  "username": "userMerp",
+  "password": "um1234"
+}

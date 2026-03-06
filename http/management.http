@@ -1,0 +1,35 @@
+@URL = http://localhost:9000
+
+### Get USER
+GET {{URL}}/users/me
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MiwidXNlcm5hbWUiOiJ1c2VyTWVycCIsImlhdCI6MTc3Mjc5Mjk2MCwiZXhwIjoxNzczMzk3NzYwfQ.NuQQjLRxUoM7ay-7EJhQnjOFC9Fw0GEhln381iuGAmI
+
+### Put USER
+PUT /users/me
+Content-Type: application/json
+
+{
+  "username": "userMerp",
+  "password": "um1234"
+}
+
+
+### Get DOC
+GET {{URL}}/doctors/me
+Content-Type: application/json
+
+{
+  "username": "Docpim",
+  "password": "dm1234"
+}
+
+
+### Put DOC
+PUT {{URL}}/doctors/me
+Content-Type: application/json
+
+{
+  "username": "Docpim",
+  "password": "dm1234"
+}
